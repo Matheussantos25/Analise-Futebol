@@ -16,3 +16,11 @@ Para carregar a aplicação, basta digitar streamlit run nome_da_aplicacao.py, q
 caso coloquei o nome como Premier_League_Aplicacao
 
 
+### Erros e correções durante o  código
+
+Problema: A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+Solução: tive que usar o .loc para que o pandas entendesse que eu devia atualizar o DataFrame original e não apenas a visão atual, utilizei isso em empates.ipynb
+
+Solução alternativa (mais simples): dados_2023 = dados_2023.copy(), só copiei os dados
