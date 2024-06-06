@@ -24,3 +24,8 @@ Try using .loc[row_indexer,col_indexer] = value instead
 Solução: tive que usar o .loc para que o pandas entendesse que eu devia atualizar o DataFrame original e não apenas a visão atual, utilizei isso em empates.ipynb
 
 Solução alternativa (mais simples): dados_2023 = dados_2023.copy(), só copiei os dados
+
+
+
+### Reflxões Estudadas 
+
