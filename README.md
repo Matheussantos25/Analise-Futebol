@@ -29,3 +29,6 @@ Solução alternativa (mais simples): dados_2023 = dados_2023.copy(), só copiei
 
 ### Reflxões Estudadas 
 
+Existem padrões de variações, em geral quanto mais um time varia seus gols no HT em relação de uma rodada
+para a seguinte, maior é a probabildiade de na próxima rodada ter essa variação de gols no HT, ou seja, pouco
+provável de repetir mesma quantidade de gols no HT
